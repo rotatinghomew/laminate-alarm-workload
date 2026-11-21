@@ -7,3 +7,5 @@ SH2,EV4,1,570,544,569,west,normal,572,valid
 SH3,EV5,1,690,558,620,east,normal,677,valid
 SH3,EV6,1,696,559,580,east,normal,,pending
 SH4,EV7,1,670,520,587,west,normal,655,void
+SH2,EV8,1,715,696,720,east,critical,,pending
+SH3,EV8,2,560,480,540,west,critical,557,valid

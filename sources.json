@@ -72,6 +72,21 @@
         "arrived"
       ]
     },
+    "handoffs": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "event",
+        "from_shift",
+        "to_shift",
+        "from_area",
+        "to_area",
+        "received",
+        "dispatch"
+      ]
+    },
     "policies": {
       "key": [
         "id"
@@ -109,6 +124,30 @@
       "dispatch",
       "shift",
       "shifts",
+      "id"
+    ],
+    [
+      "handoffs",
+      "event",
+      "episodes",
+      "event"
+    ],
+    [
+      "handoffs",
+      "from_shift",
+      "shifts",
+      "id"
+    ],
+    [
+      "handoffs",
+      "to_shift",
+      "shifts",
+      "id"
+    ],
+    [
+      "handoffs",
+      "dispatch",
+      "dispatch",
       "id"
     ]
   ]
