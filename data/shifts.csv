@@ -1,0 +1,5 @@
+id,day,start,end,slots,reserved,use
+SH1,2026-03-01,480,720,3,1,tune
+SH2,2026-03-02,480,720,2,1,holdout
+SH3,2026-03-03,480,720,3,1,holdout
+SH4,2026-03-04,480,720,2,0,holdout

@@ -1,0 +1,12 @@
+id,shift,area,device,event_at,seen_at,score,state
+A01,SH1,east,N1,520,521,0.91,active
+A02,SH1,east,N2,527,527,0.83,active
+A03,SH2,west,N2,498,502,0.80,active
+A04,SH2,east,N1,501,517,0.88,active
+A05,SH2,east,N1,517,518,0.96,active
+A06,SH2,west,N2,514,525,0.97,active
+A07,SH2,west,N2,535,535,0.91,maintenance
+A08,SH2,west,N2,550,553,0.94,active
+A09,SH3,east,N1,560,568,0.86,active
+A10,SH3,east,N1,570,573,0.89,active
+A11,SH4,west,N2,520,521,0.87,active

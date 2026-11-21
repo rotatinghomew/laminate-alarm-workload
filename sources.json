@@ -1,0 +1,115 @@
+{
+  "tables": {
+    "shifts": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "day",
+        "start",
+        "end",
+        "slots",
+        "reserved",
+        "use"
+      ]
+    },
+    "capacity_rules": {
+      "key": [
+        "severity"
+      ],
+      "columns": [
+        "severity",
+        "delay",
+        "reserve_allowed",
+        "can_escalate"
+      ]
+    },
+    "episodes": {
+      "key": [
+        "shift",
+        "event",
+        "revision"
+      ],
+      "columns": [
+        "shift",
+        "event",
+        "revision",
+        "reported",
+        "from",
+        "to",
+        "area",
+        "severity",
+        "close",
+        "decision"
+      ]
+    },
+    "signals": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "shift",
+        "area",
+        "device",
+        "event_at",
+        "seen_at",
+        "score",
+        "state"
+      ]
+    },
+    "dispatch": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "shift",
+        "signal",
+        "assigned",
+        "departure",
+        "arrived"
+      ]
+    },
+    "policies": {
+      "key": [
+        "id"
+      ],
+      "columns": [
+        "id",
+        "threshold",
+        "urgent_threshold",
+        "merge_minutes",
+        "travel_minutes",
+        "feedback_minutes"
+      ]
+    }
+  },
+  "links": [
+    [
+      "episodes",
+      "shift",
+      "shifts",
+      "id"
+    ],
+    [
+      "signals",
+      "shift",
+      "shifts",
+      "id"
+    ],
+    [
+      "dispatch",
+      "signal",
+      "signals",
+      "id"
+    ],
+    [
+      "dispatch",
+      "shift",
+      "shifts",
+      "id"
+    ]
+  ]
+}

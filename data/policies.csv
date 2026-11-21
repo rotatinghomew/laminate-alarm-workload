@@ -1,0 +1,4 @@
+id,threshold,urgent_threshold,merge_minutes,travel_minutes,feedback_minutes
+base,0.80,0.97,7,12,60
+quiet,0.90,0.95,15,12,60
+wide,0.82,0.93,20,16,75

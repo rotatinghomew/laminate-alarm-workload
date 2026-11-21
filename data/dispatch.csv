@@ -1,0 +1,5 @@
+id,shift,signal,assigned,departure,arrived
+D1,SH2,A03,506,512,527
+D2,SH2,A05,520,523,543
+D3,SH2,A08,556,,
+D4,SH3,A09,571,574,586

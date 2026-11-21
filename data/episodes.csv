@@ -1,0 +1,9 @@
+shift,event,revision,reported,from,to,area,severity,close,decision
+SH1,EV1,1,640,510,530,east,normal,625,valid
+SH2,EV2,1,590,500,534,east,normal,,pending
+SH2,EV2,2,706,496,547,west,critical,680,valid
+SH2,EV3,1,640,515,545,east,critical,630,valid
+SH2,EV4,1,570,544,569,west,normal,572,valid
+SH3,EV5,1,690,558,620,east,normal,677,valid
+SH3,EV6,1,696,559,580,east,normal,,pending
+SH4,EV7,1,670,520,587,west,normal,655,void
