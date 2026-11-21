@@ -4,8 +4,9 @@ SH2,EV2,1,590,500,534,east,normal,,pending
 SH2,EV2,2,706,496,547,west,critical,680,valid
 SH2,EV3,1,640,515,545,east,critical,630,valid
 SH2,EV4,1,570,544,569,west,normal,572,valid
-SH3,EV5,1,690,558,620,east,normal,677,valid
-SH3,EV6,1,696,559,580,east,normal,,pending
-SH4,EV7,1,670,520,587,west,normal,655,void
+SH3,EV5,1,930,798,860,east,normal,,pending
+SH3,EV6,1,936,799,820,east,normal,,pending
+SH4,EV5,2,1050,960,990,east,normal,1020,valid
+SH4,EV7,1,1150,1000,1067,west,normal,1135,void
 SH2,EV8,1,715,696,720,east,critical,,pending
-SH3,EV8,2,560,480,540,west,critical,557,valid
+SH3,EV8,2,800,720,780,west,critical,797,valid
